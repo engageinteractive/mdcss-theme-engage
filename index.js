@@ -8,7 +8,7 @@ module.exports = function (themeopts) {
 	themeopts = Object(themeopts);
 
 	// set theme logo
-	themeopts.logo = themeopts.logo || 'mdcss-logo.png';
+	themeopts.logo = themeopts.logo || '/assets/img/tile/tile.png';
 
 	// set theme title
 	themeopts.title = themeopts.title || 'Style Guide';
@@ -23,11 +23,11 @@ module.exports = function (themeopts) {
 	themeopts.examples = ext({
 		base:    '',
 		target:  '_self',
-		css:     ['style.css'],
+		css:     ['/assets/css/main.css'],
 		js:      [],
 		bodyjs:  [],
 		htmlcss: 'background:none;border:0;clip:auto;display:block;height:auto;margin:0;padding:0;position:static;width:auto',
-		bodycss: 'background:none;border:0;clip:auto;display:block;height:auto;margin:0;padding:16px;position:static;width:auto'
+		bodycss: 'border:0;clip:auto;display:block;height:auto;margin:0;padding:20px;position:static;width:auto'
 	}, themeopts.examples);
 
 	// return theme
