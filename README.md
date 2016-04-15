@@ -2,24 +2,25 @@
 
 <img align="right" width="96" height="96" src="https://jonathantneal.github.io/mdcss-theme-github/demo/mdcss-logo.png" title="mdcss logo">
 
-[![NPM Version][npm-img]][npm] [![Build Status][ci-img]][ci]
+[mdcss GitHub] is a theme for [mdcss] based on the documentation styles seen
+across GitHub.
 
-[mdcss GitHub] is a theme for [mdcss] based on the documentation styles seen across GitHub.
+This version has some minor changes in order to work with the [Engage baseplate]
 
 ## Usage
 
-Add [mdcss] and [mdcss GitHub] to your build tool:
+Add [mdcss] and [mdcss Engage] to your build tool:
 
 ```bash
 npm install mdcss --save-dev
-npm install mdcss-theme-github --save-dev
+npm install mdcss-theme-engage --save-dev
 ```
 
 Whenever [mdcss] is used, reference this theme.
 
 ```js
 require('mdcss')({
-	theme: require('mdcss-theme-github')({ /* options */ })
+	theme: require('mdcss-theme-engage')({ /​* options *​/ })
 })
 ```
 
@@ -180,3 +181,4 @@ A string of styles applied to the `<body>` wrapping the example. These default s
 [mdcss]:   https://github.com/jonathantneal/mdcss
 
 [mdcss GitHub]: https://github.com/jonathantneal/mdcss-theme-github
+[mdcss Engage]: https://github.com/engageinteractive/mdcss-theme-engage
