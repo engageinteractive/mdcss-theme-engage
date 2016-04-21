@@ -24,7 +24,7 @@ module.exports = function (themeopts) {
 		base:    '',
 		target:  '_self',
 		css:     ['/assets/css/main.css'],
-		js:      [],
+		js:      ['/assets/static/js/modernizr.js'],
 		bodyjs:  [
 			'//ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js',
 			'/assets/js/plugins.js',
