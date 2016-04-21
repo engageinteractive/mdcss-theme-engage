@@ -25,7 +25,11 @@ module.exports = function (themeopts) {
 		target:  '_self',
 		css:     ['/assets/css/main.css'],
 		js:      [],
-		bodyjs:  [],
+		bodyjs:  [
+			'//ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js',
+			'/assets/js/plugins.js',
+			'/assets/js/site.js'
+		],
 		htmlcss: 'background:none;border:0;clip:auto;display:block;height:auto;margin:0;padding:0;position:static;width:auto',
 		bodycss: 'border:0;clip:auto;display:block;height:auto;margin:0;padding:20px;position:static;width:auto'
 	}, themeopts.examples);
