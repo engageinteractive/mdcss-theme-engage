@@ -26,6 +26,7 @@ module.exports = function (themeopts) {
 		css:     ['/assets/css/main.css'],
 		js:      ['/assets/static/js/modernizr.js'],
 		bodyjs:  [
+			'/browser-sync/browser-sync-client.2.12.3.js',
 			'//ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js',
 			'/assets/js/plugins.js',
 			'/assets/js/site.js'
